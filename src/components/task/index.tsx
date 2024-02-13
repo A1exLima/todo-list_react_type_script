@@ -17,7 +17,7 @@ export function Task({ id }: TaskProps){
 
   return(
     <Container>
-      <Wrapper>
+      <Wrapper $lineThroughText={isChecked}>
         <div className="custom-checkbox-container">
           <input 
             type="checkbox" 

@@ -1,5 +1,9 @@
 import { styled } from "styled-components"
 
+interface LineThroughTextProps {
+  $lineThroughText: boolean;
+}
+
 export const Container = styled.div`
   width: 100%;
   min-height: 7.2rem;
@@ -13,7 +17,7 @@ export const Container = styled.div`
   gap: 1.6rem;
 `
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div<LineThroughTextProps>`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -71,6 +75,11 @@ export const Wrapper = styled.div`
     font-weight: 300;
     line-height: 1.4;
     color: ${({theme})=> theme.COLORS.GRAY100};
+    text-decoration: ${({$lineThroughText})=> 
+      $lineThroughText ? 
+      "line-through" : 
+      "none"
+    };
   }
 
 `
