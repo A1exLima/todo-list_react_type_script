@@ -36,6 +36,12 @@ export const Wrapper = styled.div`
     border-radius: 50%;
     cursor: pointer;
     position: relative;
+
+    transition: background-color .4s ease-in-out;
+
+    &:hover {
+      background-color: ${({theme})=> theme.COLORS.BLUE50};
+    }
   }
 
   .custom-checkbox-container input[type="checkbox"]:checked + label {

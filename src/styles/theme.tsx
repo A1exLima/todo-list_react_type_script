@@ -1,5 +1,6 @@
 export default {
     COLORS: {
+      BLUE50: "rgba(30, 111, 159, 0.2)",
       BLUE100: "#4EA8DE",
       BLUE200: "#1E6F9F",
       
