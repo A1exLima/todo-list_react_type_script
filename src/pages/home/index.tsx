@@ -1,11 +1,16 @@
-import { Container } from "./style"
+import { Container, Main } from "./style"
 
 import { Header } from "../../components/header"
+import { AddTask } from "../../components/addTask"
 
 export function App(){
   return(
     <Container>
       <Header/>
+      
+      <Main>
+        <AddTask/>
+      </Main>
     </Container>
   )
 }
