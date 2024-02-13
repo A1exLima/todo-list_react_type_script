@@ -27,7 +27,6 @@ export default createGlobalStyle`
 
   body, input, button, textarea {
     font-family: var(--font-inter);
-    line-height: 140%;
     font-weight: 400;
     font-size: 1.6rem;
   }

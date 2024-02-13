@@ -6,8 +6,10 @@ export function Header(){
   return(
     <Container>
       <img src={brand} alt="Logotipo" />
-      <span>to</span>
-      <span>do</span>
+      <div>
+        <span>to</span>
+        <span>do</span>
+      </div>
     </Container>
   )
 }
