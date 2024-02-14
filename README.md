@@ -29,12 +29,6 @@ ___
 
 ___
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK]([https://www.figma.com/community/file/1196874589259687769](https://www.figma.com/file/L9bNXVdSZefTzssKi6YOLv/ToDo-List-%E2%80%A2-Desafio-React-(Copy)?type=design&node-id=56-96&mode=design&t=Px74cD07xnDPjdoW-0)). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-___
-
 ## 💻 Projeto
 
 ___
