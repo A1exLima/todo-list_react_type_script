@@ -4,8 +4,8 @@ export default {
       BLUE100: "#4EA8DE",
       BLUE200: "#1E6F9F",
       
-      PURPLE100: "#8284FA",
-      PURPLE200: "#5E60CE",
+      PURPLE100: "#0fabe9",
+      PURPLE200: "#07b2f5dd",
 
       GRAY100: "#F2F2F2",
       GRAY200: "#D9D9D9",
@@ -13,7 +13,7 @@ export default {
       GRAY400: "#333333",
       GRAY500: "#262626",
       GRAY600: "#1A1A1A",
-      GRAY700: "#0D0D0D",
+      GRAY700: "#0d0d0d66",
 
       RED100: "#E25858",
     }

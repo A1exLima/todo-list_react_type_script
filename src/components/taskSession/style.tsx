@@ -2,14 +2,18 @@ import { styled } from "styled-components"
 
 export const Container = styled.article`
   width: 100%;
+  height: fit-content;
 `
 
 export const Header = styled.header`
+  width: 100%;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 2.4rem;
   border-bottom: 1px solid ${({theme})=> theme.COLORS.GRAY400};
+  
 
   > div {
     display: flex;
@@ -47,9 +51,13 @@ export const Header = styled.header`
 
 export const Section = styled.section`
   width: 100%;
+  height: fit-content;
+  
 `
 
 export const TaskBox = styled.article`
+  width: 100%;
+  height: fit-content;
   padding-top: 2.4rem;
   display: flex;
   flex-direction: column;
@@ -57,6 +65,9 @@ export const TaskBox = styled.article`
 `
 
 export const EmptyTaskMessage = styled.article` 
+
+  width: 100%;
+  height: fit-content;
   padding-top: 6.4rem;
   display: flex;
   align-items: center;

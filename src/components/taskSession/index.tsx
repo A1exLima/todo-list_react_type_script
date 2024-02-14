@@ -72,7 +72,7 @@ export function TaskSession(){
 
         <div>
           <p>Concluídas</p>
-          <span>{qtdTasksCompleted}</span>
+          <span>{`${qtdTasksCompleted} de ${qtdTasks}`}</span>
         </div>
       </Header>
 

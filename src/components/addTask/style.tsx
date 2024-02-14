@@ -1,6 +1,8 @@
 import { styled } from "styled-components"
 
 export const Container = styled.form`
+  width: 100%;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,11 +11,10 @@ export const Container = styled.form`
 
   > input {
     border: none;
-    box-shadow: 0 0 0 1px ${({theme})=> theme.COLORS.GRAY700};
     background: ${({theme})=> theme.COLORS.GRAY500};
     border-radius: .8rem;
     padding: 1.6rem;
-    width: 63.8rem;
+    width: 100%;
     height: 5.4rem;
     color: ${({theme})=> theme.COLORS.GRAY100};
     
@@ -33,6 +34,8 @@ export const Container = styled.form`
   }
 
   > button[type=button] {
+    width: fit-content;
+    height: 5.2rem;
     display: flex;
     align-items: center;
     gap: .8rem;
@@ -40,7 +43,6 @@ export const Container = styled.form`
     background-color: ${({theme})=> theme.COLORS.BLUE200};
     border-radius: .8rem;
     border: none;
-    height: 5.2rem;
     padding: 1.6rem;
     
     color: ${({theme})=> theme.COLORS.GRAY100};

@@ -34,4 +34,21 @@ export default createGlobalStyle`
     font-weight: 400;
     font-size: 1.6rem;
   }
+
+  ::-webkit-scrollbar {
+    width: 0.5rem;
+
+    @media (max-width: 768px) {
+      width: .2rem;
+    }
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.COLORS.BLUE200};
+    border-radius: 0.2rem;
+  }
 `
