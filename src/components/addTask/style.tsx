@@ -5,7 +5,7 @@ export const Container = styled.form`
   align-items: center;
   justify-content: center;
   gap: .8rem;
-  margin-top: -2.7rem;
+  margin: -2.7rem 0 6.4rem 0;
 
   > input {
     border: none;
@@ -32,7 +32,7 @@ export const Container = styled.form`
     }
   }
 
-  > button {
+  > button[type=button] {
     display: flex;
     align-items: center;
     gap: .8rem;
@@ -51,12 +51,17 @@ export const Container = styled.form`
     cursor: pointer;
     transition: background-color .4s ease-in-out;
 
-    &:hover {
+    &:not(:disabled):hover {
       background-color: ${({theme})=> theme.COLORS.BLUE100};
     }
 
     > svg {
       font-size: 2.2rem;
     }
+  }
+
+  > button[type=button]:disabled {
+    cursor: not-allowed;
+    opacity: .7;
   }
 `

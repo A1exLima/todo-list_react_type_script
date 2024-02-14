@@ -11,6 +11,10 @@ export default createGlobalStyle`
   :root{
     font-size: 62.5%;
     --font-inter: "Inter", sans-serif;
+
+    @media (max-width: 768px) {
+      font-size: 52.5%;
+    }
   }
 
   :focus {

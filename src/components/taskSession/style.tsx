@@ -2,7 +2,6 @@ import { styled } from "styled-components"
 
 export const Container = styled.article`
   width: 100%;
-  padding-top: 6.4rem;
 `
 
 export const Header = styled.header`
@@ -48,33 +47,32 @@ export const Header = styled.header`
 
 export const Section = styled.section`
   width: 100%;
-  
-  .no-tasks {
-    padding-top: 6.4rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-    display: none;
-
-    > img {
-      padding-bottom: 1.6rem;
-    }
-
-    > p {
-      line-height: 1.4;
-      color: ${({theme})=> theme.COLORS.GRAY300};
-    }
-
-    > p:nth-child(2) {
-      font-weight: 600;
-    }
-  }
 `
 
-export const Article = styled.section`
+export const TaskBox = styled.article`
   padding-top: 2.4rem;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+`
+
+export const EmptyTaskMessage = styled.article` 
+  padding-top: 6.4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+  > img {
+    padding-bottom: 1.6rem;
+  }
+
+  > p {
+    line-height: 1.4;
+    color: ${({theme})=> theme.COLORS.GRAY300};
+  }
+
+  > p:nth-child(2) {
+    font-weight: 600;
+  }
 `
